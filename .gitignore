@@ -1,0 +1,13 @@
+data/raw/
+results_test/
+.snakemake/
+.venv/
+__pycache__/
+*.pyc
+results/candidates.fasta
+results/candidates.csv
+results/*.reference.fasta
+results/pooled.fasta
+.DS_Store
+.ipynb_checkpoints/
+data/metadata_refresh/

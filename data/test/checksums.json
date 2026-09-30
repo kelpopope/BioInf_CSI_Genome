@@ -1,0 +1,87 @@
+[
+  {
+    "file": ".ready",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "file": "assemblies.csv",
+    "sha256": "f43fcad18ec8461a106babc42a2f36c253d44a55444355a07397db721ae07762",
+    "bytes": 2327
+  },
+  {
+    "file": "genomes/batch_000.zip",
+    "sha256": "8b5c54bb12351ae3fad39275d6035542e82e6706b0f83194fb2d53062bf50880",
+    "bytes": 4685809
+  },
+  {
+    "file": "reads/DRR504716/DRR504716_1.fastq.gz",
+    "sha256": "d182f198c6e12e70a0460b721c0e7c38f3abee69f2b70a65188d9799329a7cce",
+    "bytes": 39962
+  },
+  {
+    "file": "reads/ERR14335635/ERR14335635_1.fastq.gz",
+    "sha256": "ad464648dad8d5ac58637500effb97596ed41518e545dacb69777cac0c4ab054",
+    "bytes": 8157
+  },
+  {
+    "file": "reads/ERR14335635/ERR14335635_2.fastq.gz",
+    "sha256": "27c2951075b5bd2ba8cd878a20408ca53802df86f5fd123ac4bf3854a7c4cfaa",
+    "bytes": 8453
+  },
+  {
+    "file": "reads/ERR14335636/ERR14335636_1.fastq.gz",
+    "sha256": "19cd4a8c5937d2c8f63bfd718da8de581cbc4cb73dca9181de60c4ac582e3b8a",
+    "bytes": 8297
+  },
+  {
+    "file": "reads/ERR14335636/ERR14335636_2.fastq.gz",
+    "sha256": "bfd72d3cffeda92b55caa547e726a04ec15dbfab47071c0247b04c2aec11513d",
+    "bytes": 8532
+  },
+  {
+    "file": "reads/SRR28122442/SRR28122442_subreads.fastq.gz",
+    "sha256": "8dd80151673879922369fe1e30bf47c0987494e6d8cb13cbb4472c3e37f042cc",
+    "bytes": 28714
+  },
+  {
+    "file": "reads/SRR33330896/SRR33330896_1.fastq.gz",
+    "sha256": "38c9da3a967171fd988b470f69f40374974fcad00da65d3875eab4732042a475",
+    "bytes": 6224
+  },
+  {
+    "file": "reads/SRR33330896/SRR33330896_2.fastq.gz",
+    "sha256": "a7ba2bbd16403c34e343d8c33489e2f14a8c129fa6805b9ceae0fcb6c4ced21b",
+    "bytes": 6196
+  },
+  {
+    "file": "reads/SRR6082028/SRR6082028_1.fastq.gz",
+    "sha256": "1a32e0beda2591707bd579ca6c5f4e858b2ac620f60f573df154502394285165",
+    "bytes": 122342
+  },
+  {
+    "file": "reads/SRR9681681/SRR9681681_1.fastq.gz",
+    "sha256": "14da7b4712aeb326019a9ff08404db08572aed2af76aa870608a2c90e368433f",
+    "bytes": 18618
+  },
+  {
+    "file": "reads/SRR9681681/SRR9681681_2.fastq.gz",
+    "sha256": "65ad90b6865f0c7491e01a421152ec639da87ed2e6ba6ba4d878e9c4ada5dec7",
+    "bytes": 19213
+  },
+  {
+    "file": "reads.csv",
+    "sha256": "021c297f9dca8fa63e372a783e25db426c09584b20796f1385452ffdde27729d",
+    "bytes": 2062
+  },
+  {
+    "file": "refs/UniVec_Core.fasta",
+    "sha256": "ea5d15248a4f438069ffa70bb6088f28935379354ea3e924cc5d6db40be92c5c",
+    "bytes": 921849
+  },
+  {
+    "file": "refs/panel.fasta",
+    "sha256": "a897edb17d61d43ddfe85105de86f2615ada94cde1ca65f984bcfde01cdf4de2",
+    "bytes": 10068353
+  }
+]

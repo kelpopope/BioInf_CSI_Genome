@@ -1,0 +1,14 @@
+accession,organism,taxid,bioproject,biosample,year,release_date,technology,platform,level,ani_status,ani_best,retrieved_utc
+GCA_000008305.1,Mesoplasma florum L1,265311,PRJNA10650,SAMN03081416,2004,2004-07-19,,Unknown,Complete Genome,OK,Mesoplasma grammopterae,2026-09-29
+GCA_002441935.1,Mesoplasma lactucae ATCC 49193,81460,PRJNA412357,SAMN07709945,2017,2017-10-04,Illumina MiSeq; Oxford-Nanopore Minion,Hybrid,Complete Genome,OK,Mesoplasma lactucae,2026-09-29
+GCA_007859615.1,Mycoplasma anserisalpingitidis,519450,PRJNA554588,SAMN12274163,2019,2019-08-07,Illumina MiSeq,Short,Complete Genome,OK,Mycoplasmopsis anatis,2026-09-29
+GCA_013389495.1,Acholeplasma laidlawii,2148,PRJNA642732,SAMN15398003,2020,2020-07-05,Sanger; Illumina,Short,Contig,OK,Acholeplasma laidlawii,2026-09-29
+GCA_038024965.1,Candidatus Phytoplasma fraxini,35780,PRJNA1081420,SAMN40175287,2024,2024-04-09,,Unknown,Complete Genome,Inconclusive,Candidatus Phytoplasma stylosanthis,2026-09-29
+GCA_040369795.1,Spiroplasma ixodetis,2141,PRJDB16501,SAMD00647262,2024,2024-04-24,Nanopore minION,Long,Complete Genome,Inconclusive,Spiroplasma platyhelix,2026-09-29
+GCA_041276565.1,'Camptotheca acuminata' phytoplasma,3239192,PRJNA1141264,SAMN42884353,2024,2024-08-13,Illumina,Short,Contig,OK,Candidatus Phytoplasma stylosanthis,2026-09-29
+GCA_937885255.1,uncultured Mollicutes bacterium,220137,PRJEB51895,SAMEA14081035,2023,2023-01-10,Illumina HiSeq 2000,Short,Contig,Inconclusive,Anaeroplasma bactoclasticum,2026-09-29
+GCA_948820955.1,uncultured Anaeroplasmataceae bacterium,658266,PRJEB59335,SAMEA112404398,2023,2023-03-12,Illumina,Short,Scaffold,Inconclusive,na,2026-09-29
+GCA_949019015.1,uncultured Anaeroplasmataceae bacterium,658266,PRJEB59335,SAMEA112403722,2023,2023-03-11,Illumina,Short,Scaffold,Inconclusive,Anaeroplasma bactoclasticum,2026-09-29
+GCA_949083825.1,uncultured Anaeroplasmataceae bacterium,658266,PRJEB59335,SAMEA112405874,2023,2023-03-24,Illumina,Short,Contig,Inconclusive,Helicobacter ganmani,2026-09-29
+GCA_965212725.1,Mycoplasma marinum,1937190,PRJEB85433,SAMEA117660579,2025,2025-03-20,Illumina NextSeq 500,Short,Scaffold,OK,Mycoplasma marinum,2026-09-29
+GCA_965212735.1,Mycoplasma todarodis,1937191,PRJEB85433,SAMEA117660580,2025,2025-03-20,Illumina NextSeq 500,Short,Scaffold,Inconclusive,Mycoplasma todarodis,2026-09-29

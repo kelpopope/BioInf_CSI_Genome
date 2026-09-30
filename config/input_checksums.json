@@ -1,0 +1,467 @@
+[
+  {
+    "file": ".ready",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "file": "refs/UniVec_Core.fasta",
+    "sha256": "ea5d15248a4f438069ffa70bb6088f28935379354ea3e924cc5d6db40be92c5c",
+    "bytes": 921849
+  },
+  {
+    "file": "refs/panel.fasta",
+    "sha256": "a897edb17d61d43ddfe85105de86f2615ada94cde1ca65f984bcfde01cdf4de2",
+    "bytes": 10068353
+  },
+  {
+    "file": "genomes/batch_000.zip",
+    "sha256": "592d652a82d2068974d79c25282fb86ac9651f9da718b4810d24ed7069531000",
+    "bytes": 44420232
+  },
+  {
+    "file": "genomes/batch_001.zip",
+    "sha256": "c570267709cc8bc17b60100f989745335bc06f7713bb76476c5c0b4bce011065",
+    "bytes": 52232600
+  },
+  {
+    "file": "genomes/batch_002.zip",
+    "sha256": "98937de9e3b0be951abf3d3056320a45d5269b2b26208720c6916a6a3387202f",
+    "bytes": 50300703
+  },
+  {
+    "file": "genomes/batch_003.zip",
+    "sha256": "6bc1846cd5ac865c6efb34faa3d6cb9f21551a05d74191fa76710be5f2d33aa2",
+    "bytes": 45165025
+  },
+  {
+    "file": "genomes/batch_004.zip",
+    "sha256": "34cef73df1cc9a4657d45865e76c35f19465c7d4cbea93e1ee6a1619d663ce8e",
+    "bytes": 48999893
+  },
+  {
+    "file": "genomes/batch_005.zip",
+    "sha256": "554442de2d4a0ff607ebfa21643185ec41f19bf72015efb29e035f798dcb579d",
+    "bytes": 45280101
+  },
+  {
+    "file": "genomes/batch_006.zip",
+    "sha256": "f3606b38d4813f128673b62351a5124ec9a3c74161a509013409f5c22cc30c56",
+    "bytes": 28141373
+  },
+  {
+    "file": "genomes/batch_007.zip",
+    "sha256": "6a43bc293fab411aad2739cbfc4c872bb0372e248d48bce4bcd9e46c55fadf22",
+    "bytes": 49689700
+  },
+  {
+    "file": "genomes/batch_008.zip",
+    "sha256": "f045e965acbd795072453fca8b206e6049f857b391b8cbf9ae59c5e29a46628c",
+    "bytes": 48033981
+  },
+  {
+    "file": "genomes/batch_009.zip",
+    "sha256": "d37bad9e1882ccd916850cc81c38108f1a107ee2b7a102066b1fb963e88cacd6",
+    "bytes": 46125025
+  },
+  {
+    "file": "genomes/batch_010.zip",
+    "sha256": "7712f7f8dae6edc94f6cd96dec43c3fbb4c5347273779fa148c695985ff9530a",
+    "bytes": 56734704
+  },
+  {
+    "file": "genomes/batch_011.zip",
+    "sha256": "83eee51be6465f66a63e57d2c268c61001fa000445f2780484f24af5aa6c03f3",
+    "bytes": 59378366
+  },
+  {
+    "file": "genomes/batch_012.zip",
+    "sha256": "e42c3a7c6b5f1928667e0fd3434599282c4cd34545dff11abf5ce99b5c30dbd8",
+    "bytes": 50537273
+  },
+  {
+    "file": "genomes/batch_013.zip",
+    "sha256": "2f521de6b6756b4a608e883d8079e2b866908028342ef456c5e920e7e956337b",
+    "bytes": 76010432
+  },
+  {
+    "file": "genomes/batch_014.zip",
+    "sha256": "b8c04c6aacccd47fa6104d20c2a8bc52331f06f7800bc03e89229702bde8468f",
+    "bytes": 77340664
+  },
+  {
+    "file": "genomes/batch_015.zip",
+    "sha256": "d6d2e27a8cb108b1c8552976bf912ac661e58d9e2bf541929f0b4edf2448a76f",
+    "bytes": 67537142
+  },
+  {
+    "file": "genomes/batch_016.zip",
+    "sha256": "e141b7f64b69d6127c24fc4d2f8cdc963e8e9d12461fd1695ef0aa59a00be4b4",
+    "bytes": 61931442
+  },
+  {
+    "file": "genomes/batch_017.zip",
+    "sha256": "1d288580cd01855fc2c54cd3d6acb80fd610a289a9e40103bb1328d3d98ccb0e",
+    "bytes": 59458550
+  },
+  {
+    "file": "genomes/batch_018.zip",
+    "sha256": "2a690093f8ec26710d0143ca38f5f2c63d6a6972f42c2488da251e8206316576",
+    "bytes": 56847233
+  },
+  {
+    "file": "genomes/batch_019.zip",
+    "sha256": "c04d4feb6e5650244039f2d304480a27c7fb64e309dcb8ec94d0132f9d535055",
+    "bytes": 36816065
+  },
+  {
+    "file": "genomes/batch_020.zip",
+    "sha256": "4d3d33c90099c9fbff980adbb6f18f046cf58c86106698eb483bbfaa1e8966ad",
+    "bytes": 2387031
+  },
+  {
+    "file": "metadata/ena_by_sample.tgz",
+    "sha256": "7fba72202f9c182658f71cd41db11b83ab0fa954aa82ee272336e8bd6dfcfe3a",
+    "bytes": 142866
+  },
+  {
+    "file": "metadata/ena_read_runs_mollicutes.tsv",
+    "sha256": "33243f6263470e2f71ab76a3ac52a96447e1f8b6e032db011464d424ea2808a8",
+    "bytes": 486683
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_000.tsv",
+    "sha256": "015583430458bc4e81c92d2223f279cbbd37212bb8b426ae137e8669479b50b5",
+    "bytes": 19184
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_001.tsv",
+    "sha256": "bee773fd93fa9ee35148742422cf887ca26855daa51b6e17ac78854d2913548f",
+    "bytes": 11761
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_002.tsv",
+    "sha256": "59e1ec798c7781ee2489ccbc7143c4d2fafb0317c6b88e7a1038146a39d0961a",
+    "bytes": 8612
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_003.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_004.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_005.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_006.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_007.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_008.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_009.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_010.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_011.tsv",
+    "sha256": "8af0aea10e9c679fade0c1e527779e3999767cc4454f9b4c1bdca86b80908f63",
+    "bytes": 3844
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_012.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_013.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_014.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_015.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_016.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_017.tsv",
+    "sha256": "848d9d6508476d020245648c45359ca3275475db311970914bd9cc041516aa12",
+    "bytes": 1387
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_018.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_019.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_020.tsv",
+    "sha256": "c38d9a187943ead3a8d2c5b797ca03a9c7ca0f16d3b51c194fe3a697dcf514f9",
+    "bytes": 2543
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_021.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_022.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_023.tsv",
+    "sha256": "ac905c2111b62d385211b2350b579ea84887bb782144447b0ad395796dbdcd55",
+    "bytes": 5050
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_024.tsv",
+    "sha256": "c685ef2f32c519dc628a8f64685c775c0556e72fd9a85e5cf1c4742ea2426428",
+    "bytes": 3752
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_025.tsv",
+    "sha256": "b13800a38ee97e12062a155eacc66ccd21ec99cdc2c5e35a6931f5184ff58c9e",
+    "bytes": 37085
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_026.tsv",
+    "sha256": "56e4fa8b519395b4080e911dfab0909747943bf8676f2a61209914210a20ca93",
+    "bytes": 19458
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_027.tsv",
+    "sha256": "9ed23f0e6ac974092d777f9e6387bc2dff76bd48037ca8eb969c1715c154a566",
+    "bytes": 8354
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_028.tsv",
+    "sha256": "ddd2eb28b204a386d9aa772eec5aacc46addc59bdc977d8bb521106d4dc65f77",
+    "bytes": 18388
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_029.tsv",
+    "sha256": "a986fe65bdd3a3064ef94c68093fa9bd3941085e26993ca7428ef783eb0e4eda",
+    "bytes": 18557
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_030.tsv",
+    "sha256": "b3928c74bb281860e0c5b687cef15ca69c3ae31bc4c3a950bb33ff114e11dc46",
+    "bytes": 517254
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_031.tsv",
+    "sha256": "68304030f603929cc39f9bac4a02816e1969568a2074366b8c721a48d819a4c7",
+    "bytes": 12459
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_032.tsv",
+    "sha256": "dabcc0b5ae1113dee89212f1f971e3ec322285b72628ed29dee4a9a99562174e",
+    "bytes": 22805
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_033.tsv",
+    "sha256": "00a8d1f384ed5d93902235d80efaa666ac91bd46472b1bfb534b6b7c0e6e286c",
+    "bytes": 302354
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_034.tsv",
+    "sha256": "60bf57c464684527b02bde4a76c03c741a3506041b857dd7c45b51d3a70ec3cb",
+    "bytes": 35368
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_035.tsv",
+    "sha256": "f44e2870ffc8e2ad528c69bf5a046beb8925a1cb2b5868660158a7be173af459",
+    "bytes": 12987
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_036.tsv",
+    "sha256": "a8e7522f298afd7398f43be047226fbfb1e60b2bf7ebd775585e5060d0345f3d",
+    "bytes": 3724
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_037.tsv",
+    "sha256": "f30f2032f012f9c802e5df9e46a8308a72557e879f136e7eacbf47214d8a503c",
+    "bytes": 12997
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_038.tsv",
+    "sha256": "05759bc8ec4c80677df8fb6c3ed7b75a74dfc729ae1470640050772f05c9b6d6",
+    "bytes": 16072
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_039.tsv",
+    "sha256": "e35d457b825ee878c3b4d8fb4f00044f3b5ab6d92e656d1c596053b88fafceb7",
+    "bytes": 18546
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_040.tsv",
+    "sha256": "451a96f86b20dad314c1a1914a21f6571df7cec2b60d2984e045cfe7b4035555",
+    "bytes": 5541
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_041.tsv",
+    "sha256": "b4a39d38f74afb443ad5932615592609c2258fec929ea02c2dfa0de3d37b513d",
+    "bytes": 14021
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_042.tsv",
+    "sha256": "e4b261252c3de748d843611c19b841661711bf08a7aad39d6f545cae6f8d9161",
+    "bytes": 42478
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_043.tsv",
+    "sha256": "b4691def169ba64667a6c822a9035f441099f94b08dfdd55aa433af3acc54d36",
+    "bytes": 10318
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_044.tsv",
+    "sha256": "d398b28f315a5a4145ee5c73a3c77d7b74dbf60b0fbe90db238d8dbd1c2fd924",
+    "bytes": 14298
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_045.tsv",
+    "sha256": "2ec312c86c029428285d661eed0e155cc7d4d84eaccf12a970bdf05b85070763",
+    "bytes": 9920
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_046.tsv",
+    "sha256": "3fc691889aa90e55b9ab83ddaffa1fe35b7380e8f922f0088fde9feb1947e355",
+    "bytes": 7220
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_047.tsv",
+    "sha256": "be50289138fe68b23c1429089c85ce1a301ce0ec5f451775f44f843194490e6f",
+    "bytes": 10310
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_048.tsv",
+    "sha256": "84a8c1662069dc56105e2166bd77f61f31ccb9bbb3c9effa0c62d35e8c4a63c5",
+    "bytes": 13861
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_049.tsv",
+    "sha256": "7512c707eae659c88628b48ccea0e7eb54f8da7dd771cba3f5e98709717243cd",
+    "bytes": 15238
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_050.tsv",
+    "sha256": "625a4b871dd8c966ef96f6e250906e6133ab03b33eee112138ef4f91b1def820",
+    "bytes": 3416
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_051.tsv",
+    "sha256": "632d061871e8ff6e20d65d619a3ba8ef998f21753743603e12524bdd09220f1a",
+    "bytes": 3724
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_052.tsv",
+    "sha256": "ab2e4ab270a3f64546efafd2b9769da1f1aa9068415ba5a79dd866129a4aaaec",
+    "bytes": 3724
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_053.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_054.tsv",
+    "sha256": "5ab056fb797d9dfffb31bd307bd35d5777fad371e236eca2932e50c8c8368668",
+    "bytes": 1585
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_055.tsv",
+    "sha256": "a1f2508036011a76ce7b468c967f4b937929bd48e75d8ddcf06478d549ea497c",
+    "bytes": 3724
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_056.tsv",
+    "sha256": "de93149da44de5fddfc327a4db2bada3e857339b0819ba4772e2bfdbda20f019",
+    "bytes": 2422
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_057.tsv",
+    "sha256": "bf2d974a14495bfef54862382482a20648c64c4bf2bd657e4b497080ea823d05",
+    "bytes": 2004
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_058.tsv",
+    "sha256": "3f4dfef53e2ad2d969ee64f967c39a0866e2f70cb9b9af952b39ce07985a7f58",
+    "bytes": 4345
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_059.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_060.tsv",
+    "sha256": "7b1af2b0583432c3b7afebaab39fd7ebb4067349c8fb823161c202cf78f41fa7",
+    "bytes": 6486
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_061.tsv",
+    "sha256": "342c6d17a70883836c52e2a9621ea8df05da7d4a0eb92bc8c600932566eae1c2",
+    "bytes": 1402
+  },
+  {
+    "file": "metadata/ena_runs_by_sample/batch_062.tsv",
+    "sha256": "643f9ce2923b0a39f472e2247aa6be298f6595c18280795497549514d96d1e24",
+    "bytes": 289
+  },
+  {
+    "file": "metadata/mollicutes_genbank_reports_0001.json",
+    "sha256": "85d20802827f9b256bc3792ababbea013d9572ca469f3c44604e27f7be9205b4",
+    "bytes": 3937412
+  },
+  {
+    "file": "metadata/mollicutes_genbank_reports_0002.json",
+    "sha256": "f6578ac958d0e8e0342c2bb084ca898fcccc4f1419774642cc54fd7a1c672d0e",
+    "bytes": 4545737
+  },
+  {
+    "file": "metadata/mollicutes_genbank_reports_0003.json",
+    "sha256": "8f0ce4c28509b1ea026d29c9999811f28ffa9f4470d57a7ca9c23b687a13fdc2",
+    "bytes": 4705408
+  },
+  {
+    "file": "metadata/mollicutes_genbank_reports_0004.json",
+    "sha256": "2c89cf12150a81f758b51819d6115fa1490f92b8e86e907fba42dcfea4b1e326",
+    "bytes": 20039
+  }
+]
