@@ -12,7 +12,9 @@ These are screening flags, not a measurement of all contamination in GenBank.
 
 - [Notebook](CSI_Genome_Project07.ipynb): question, methods, results and reproduction command.
 - [Notebook as HTML](notebook.html).
-- [10-page report](report/CSI_Genome_Report.pdf).
+- [12-page report](report/CSI_Genome_Report.pdf), including Appendix A on AI usage.
+- [Editable report in Word](report/CSI_Genome_Report.docx): source for the final PDF.
+  The earlier report builder generates a separate draft and does not replace the edited report.
 - [Ten curator candidates](results/curator_top10.csv), with coordinates and suggested checks.
 - [Case review](results/review_decisions.csv), including unresolved cases and intentional constructs.
 
@@ -79,9 +81,8 @@ Source links and biological limitations are in the report. No dataset was genera
 
 ## Team responsibilities and commits
 
-Abylaikhan Torekhan: acquisition, assembly screening and reproducibility.
-Kuanysh Bakizhan: read QC, candidate evidence review and interpretation.
-Both: check the report and be ready to explain every step at the defence.
+Abylaikhan Torekhan and Kuanysh Bakizhan both worked on the code and checked the results.
+Both partners are responsible for the final report and for explaining the full analysis at the defence.
 
 Joint commits use GitHub's `Co-authored-by` trailer with the verified account address
 `258616596+karp3n3@users.noreply.github.com`. The repository preserves the actual commit dates;

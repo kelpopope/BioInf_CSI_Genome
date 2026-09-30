@@ -1,4 +1,4 @@
-"""Build the ten-page report from the saved result tables."""
+"""Build an earlier draft from result tables; the final report is edited in CSI_Genome_Report.docx."""
 import json,sys
 from pathlib import Path
 import pandas as pd
@@ -128,7 +128,7 @@ p('At the same observed throughput, ten times as much sequence would take roughl
 sub('Limits that change the interpretation')
 p('The foreign panel has only four references; nuclear host DNA, divergent organisms and short vector fragments can be missed. Exact motifs miss damaged adapters. GC can vary naturally. HGT and constructs cannot be proved from contig context alone. All raw reads are prefixes, not random samples. Species, laboratories and eras confound the platform comparison. The direct metadata join misses parent-sample links. core_nt omits some large eukaryotic chromosomes. Case review was small and not an independent blinded validation. The measured 8.18% flag rate is therefore a narrow triage result.')
 sub('Conclusion and technical responsibilities')
-p('Simple screening found useful, traceable candidates at archive scale. The strongest foreign cases were E. coli and mouse mitochondrial DNA, while technical adapter residue was more frequent. A curator should inspect sequence context and raw reads before editing a record. Technical responsibilities are allocated to Abylaikhan Torekhan for data acquisition, assembly screening and reproducibility, and to Kuanysh Bakizhan for read QC, evidence review and results interpretation. Both authors are responsible for checking the final report and explaining the entire analysis; joint commit attribution is not a substitute for that work.')
+p('Simple screening found useful, traceable candidates at archive scale. The strongest foreign cases were E. coli and mouse mitochondrial DNA, while technical adapter residue was more frequent. A curator should inspect sequence context and raw reads before editing a record. Abylaikhan Torekhan and Kuanysh Bakizhan both worked on the code and checked the results. Both partners are responsible for the final report and for explaining the full analysis at the defence.')
 sub('References')
 refs=[('NCBI VecScreen and interpretation','https://www.ncbi.nlm.nih.gov/tools/vecscreen/interpretation/'),('NCBI nucleotide database scope','https://blast.ncbi.nlm.nih.gov/doc/blast-help/blastdatabases.html'),('Illumina adapter sequences','https://support-docs.illumina.com/SHARE/AdapterSequences/Content/Nextera_Illumina-Sequences.htm'),('Salter et al. 2014. Reagent and laboratory contamination','https://doi.org/10.1186/s12915-014-0087-z'),('Li 2018. Minimap2','https://doi.org/10.1093/bioinformatics/bty191'),('Illumina: index hopping','https://supportassets.illumina.com/techniques/sequencing/ngs-library-prep/multiplexing/index-hopping.html')]
 for name,url in refs:p(f'<link href="{url}" color="#20639b">{name}</link>',True)
@@ -136,6 +136,6 @@ for name,url in refs:p(f'<link href="{url}" color="#20639b">{name}</link>',True)
 def footer(canvas,doc):
     canvas.setFont('Helvetica',8);canvas.setFillColor(colors.HexColor('#637589'))
     canvas.drawString(42,24,'CSI Genome | Torekhan & Bakizhan | BDA-2405');canvas.drawRightString(A4[0]-42,24,str(doc.page))
-SimpleDocTemplate(str(ROOT/'report/CSI_Genome_Report.pdf'),pagesize=A4,rightMargin=42,leftMargin=42,topMargin=36,bottomMargin=38,
+SimpleDocTemplate(str(ROOT/'report/CSI_Genome_Report_draft.pdf'),pagesize=A4,rightMargin=42,leftMargin=42,topMargin=36,bottomMargin=38,
   title='CSI Genome - Project 07',author='Abylaikhan Torekhan; Kuanysh Bakizhan').build(story,onFirstPage=footer,onLaterPages=footer)
 print('Report saved')
