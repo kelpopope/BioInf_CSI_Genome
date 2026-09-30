@@ -9,6 +9,9 @@ Its eight tasks follow the handbook in order. No separate analysis scripts are r
 The full run screens **3,006 real GenBank Mollicutes assemblies**.
 **246 assemblies (8.18%) are flagged:** 243 have known adapter motifs and three have strong foreign-DNA matches.
 NCBI BLAST supports E. coli in one case and mouse mitochondrial DNA in two.
+The expanded batch checks **1 kb windows from 40 contigs** (28 panel matches and 12 GC outliers).
+Its provisional verdicts are 3 contamination candidates, 23 HGT/construct candidates and 14 unclear cases; see [the BLAST table](results/blast_summary.csv).
+Native/native split candidates occur in **4/2,000 ONT reads (0.20%)** in DRR504716 and **28/2,000 (1.40%)** in SRR6082028; the PacBio run SRR28122442 has **0/2,000 (0%)**. Native/foreign splits remain zero.
 These are screening flags, not a measurement of all contamination in GenBank.
 
 ## Read the project
@@ -53,8 +56,8 @@ Its rate is not an archive estimate. Some review cases are unavailable in the sm
 | 2 | Downloads the fixed genome/read inputs, provides optional metadata retrieval and checks identifier links |
 | 3 | Scans adapters and compares that initial signature by platform and release era |
 | 4 | Calculates short-read QC, trims reads and checks cross-sample assignments |
-| 5 | Analyses long reads and searches for native/foreign split alignments |
-| 6 | Aligns contigs, scores contamination versus HGT candidates and identifies selected sequences with BLAST |
+| 5 | Checks native/foreign and native/native split alignments, with circular-distance correction |
+| 6 | Keeps the original score and searches 1 kb windows from 40 panel/GC-selected contigs with BLAST |
 | 7 | Calculates all category/taxon/year rates, reconstructs review evidence and checks the detector |
 | 8 | Selects up to ten curator candidates with coordinates and evidence |
 
@@ -89,7 +92,7 @@ docker run --rm -v "$PWD":/project csi-genome
 
 `config/assemblies.csv` records all assembly versions, BioSamples, BioProjects, platforms and release years.
 `config/reads.csv` lists the seven read runs. NCBI and ENA metadata snapshots and reference manifests are also supplied.
-The fixed inputs were retrieved on 29 September 2026; the original study and BLAST checks were performed on 30 September.
+The fixed inputs were retrieved on 29 September 2026; the original study and BLAST checks were performed on 30 September. The expanded BLAST batch is dated in its saved request record.
 A notebook rerun measures its own runtime; it does not create a new BLAST response when the exact query is cached.
 
 Set `REFRESH_METADATA = True` in full mode to download current annotations separately into `data/metadata_refresh/`.
@@ -102,8 +105,10 @@ The notebook does not automatically perform an independent human validation.
 
 ## Limits
 
-- Only exact adapter motifs and four foreign-reference sources are covered; altered adapters and other contaminants can be missed.
+- The systematic screen covers exact adapter motifs and four foreign-reference sources; altered adapters and other contaminants can be missed.
 - Foreign matches and unusual GC can be real HGT or intended constructs. Vector matches require separate review.
+- BLAST searches one 1 kb window per selected contig, not its entire sequence. GC-only cases remain unclear; the offline test retains three cached queries.
+- Native/native split reads are chimera candidates and can also reflect real structural differences. Rates use all sampled reads as the denominator.
 - Short and long reads are small prefixes from selected runs, not random samples from the archive.
 - Cross-sample mapping does not uniquely identify index hopping without index reads and lane information.
 - `nt` was requested, but NCBI returned `core_nt`, as recorded in the saved responses.
@@ -111,5 +116,4 @@ The notebook does not automatically perform an independent human validation.
 
 ## Team contribution
 
-Abylaikhan Torekhan and Kuanysh Bakizhan both worked on the code and checked the results.
-Both partners are responsible for the final report and explaining the full analysis at the defence.
+Abylaikhan Torekhan led Tasks 1–3 and 6: data retrieval, metadata, adapter and foreign-DNA screening, and BLAST. Kuanysh Bakizhan led Tasks 4–5 and 7–8: short and long reads, error checking, and curator findings. Both authors wrote the report.

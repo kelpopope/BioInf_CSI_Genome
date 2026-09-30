@@ -1,0 +1,41 @@
+contig,best_hit,identity_percent,verdict
+CALAAF010000019.1,Mus musculus [LC061946],100.0,Contamination candidate
+JACAOE010000004.1,Escherichia coli [OZ040558],99.9,Contamination candidate
+CARVPV010000123.1,Mus musculus [OM948981],100.0,Contamination candidate
+CP001621.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+CP012387.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483515.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483512.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483518.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483514.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483505.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+CP001668.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483501.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483513.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483519.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483504.1,Mycoplasma mycoides subsp. capri [LS483517],99.9,HGT/construct candidate
+LS483502.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483500.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483509.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483517.1,synthetic Mycoplasma mycoides JCVI-syn1.0 [CP002027],100.0,HGT/construct candidate
+LS483511.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483507.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483516.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483510.1,Mycoplasma mycoides subsp. capri [LS483517],99.9,HGT/construct candidate
+LS483506.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+LS483508.1,Mycoplasma mycoides subsp. capri [LS483517],99.9,HGT/construct candidate
+LS483503.1,Mycoplasma mycoides subsp. capri [LS483517],100.0,HGT/construct candidate
+UQPR01000065.1,Escherichia coli [CP049101],97.11,Unclear
+UQPR01000070.1,Escherichia coli [CP181825],99.57,Unclear
+JAUZLJ010000040.1,Paracoccus marcusii [CP117466],81.4,Unclear
+JAUZLR010000026.1,Methylobacterium radiotolerans [CP090579],100.0,Unclear
+JBPWPA010000050.1,Agromyces endophyticus [CP095042],81.03,Unclear
+JAUZJH010000027.1,Pseudomonas aestiva [CP150916],96.1,Unclear
+JAUZLK010000059.1,No non-self hit [],0.0,Unclear
+JAOSIJ010000025.1,No non-self hit [],0.0,Unclear
+JAUZLR010000019.1,No non-self hit [],0.0,Unclear
+JAUZLJ010000050.1,No non-self hit [],0.0,Unclear
+JAOSIN010000062.1,No non-self hit [],0.0,Unclear
+JAUZLJ010000038.1,Novosphingobium resinovorum [CP128493],73.06,Unclear
+JAUZLF010000035.1,Phenylobacterium sp. [OZ260078],75.77,Unclear
+JAOTKO010000023.1,Telluria sp. AC161 [OZ409861],96.4,Unclear
