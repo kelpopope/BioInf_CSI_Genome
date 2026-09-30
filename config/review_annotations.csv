@@ -1,0 +1,34 @@
+accession,contig,category,start,end,verdict,review_note
+GCA_000428705.1,AUAL01000001.1,Vector,2749,3465,Unresolved,Match is an internal segment of a shuttle vector; such vectors carry natural bacterial DNA. Origin unresolved.
+GCA_001267815.1,CP012387.1,Vector,31569,34624,False_contamination_label,BioSample explicitly describes a GM12 deletion mutant YCpMmyc1.1-deltaglf; lac operon is intentional construct evidence.
+GCA_010587055.1,CP046368.1,Vector,1092688,1093008,Unresolved,Short internal match to pmycYACTn in Spiroplasma; could be a natural mobile element shared with the vector.
+GCA_010587305.1,CP047437.1,Vector,1109025,1109346,Unresolved,Same short internal pmycYACTn match in another Spiroplasma strain; accidental contamination not established.
+GCA_013389495.1,JACAOE010000004.1,Foreign,1,2885,Supported,"Whole 2,885 bp contig matches E. coli; independent non-self nt window is 99.9% identical; GC differs by 21.5 points."
+GCA_017626915.1,JAGAHS010000081.1,Adapter,3,23,Supported,Reverse TruSeq motif starts two bases from the contig end.
+GCA_023254895.1,JALRKH010000127.1,Adapter,4090,4110,Supported,TruSeq motif extends into the known GAACTCCAGTCA adapter tail near the end.
+GCA_028685975.1,JAQUCY010000044.1,Adapter,2,22,Supported,Reverse read-2 adapter begins one base from the contig end.
+GCA_034005025.1,JAVEVN010000010.1,Adapter,14257,14277,Supported,Forward TruSeq motif ends one base before the contig end.
+GCA_061231925.1,JCDNBQ010000835.1,Adapter,6,26,Supported,Reverse TruSeq motif lies five bases from the start of a short 228 bp contig.
+GCA_900489575.1,LS483501.1,Vector,31569,34624,False_contamination_label,"BioSample says construction of deletion clone MMC68, strain GM12; internal lac operon is not accidental contamination."
+GCA_900489595.1,LS483510.1,Vector,31569,34624,False_contamination_label,"BioSample says construction of deletion clone MMC68, strain GM12; internal lac operon is not accidental contamination."
+GCA_900489765.1,LS483517.1,Vector,31569,34624,False_contamination_label,"BioSample says construction of deletion clone MMC68, strain GM12; internal lac operon is not accidental contamination."
+GCA_900489795.1,LS483514.1,Vector,31436,34491,False_contamination_label,"BioSample says construction of deletion clone MMC68, strain GM12; internal lac operon is not accidental contamination."
+GCA_900489805.1,LS483516.1,Vector,25491,25766,False_contamination_label,BioSample describes GM12 deletion clone MMC68; short internal lac-operon match is construct evidence.
+GCA_902480755.1,CABSTY010000007.1,Vector,74,945,Unresolved,Partial Bin19 match in a long gut-MAG contig; without further flanking or read evidence origin remains unresolved.
+GCA_937885255.1,CALAAF010000019.1,Foreign,1,16354,Supported,"Complete 16,354 bp mouse mitochondrial contig; two rotated alignment pieces cover it; non-self nt agrees."
+GCA_937981625.1,CALJOR010000003.1,Adapter,9,29,Supported,Reverse read-2 adapter includes the upstream TCTTTCCCT extension; eight bases from the end.
+GCA_946497225.1,CAMMJS010000037.1,Adapter,30,49,Supported,"Reverse BGI motif near the contig start; technical residue supported, platform cause unproven."
+GCA_948542405.1,CAOVCS010000002.1,Adapter,12,32,Supported,Extended reverse read-2 adapter at the contig start.
+GCA_948584375.1,CAPBIA010000030.1,Adapter,18926,18946,Supported,Forward read-2 adapter extends with GGGAAA and ends six bases from the contig end.
+GCA_948675265.1,CAPOUD010000002.1,Adapter,7,27,Supported,Reverse read-2 adapter has the expected TTTCCC extension at the contig start.
+GCA_948686545.1,CAPQLC010000036.1,Adapter,13002,13022,Supported,Forward TruSeq motif ends exactly at the contig boundary.
+GCA_948751235.1,CAPZZR010000230.1,Adapter,1627,1647,Supported,Extended TruSeq GAACTCCAGTCA sequence near the contig end.
+GCA_948790595.1,CAQFVP010000005.1,Adapter,26,46,Supported,Reverse TruSeq plus the expected flanking adapter tail at the contig start.
+GCA_948817715.1,CAQJWB010000010.1,Adapter,28,48,Supported,Reverse read-2 adapter with a longer library-primer sequence immediately upstream.
+GCA_949050345.1,CARQQB010000010.1,Adapter,7507,7527,Supported,Internal TruSeq extends with GAAC and lies immediately before an N gap; technical join is supported.
+GCA_949083825.1,CARVPV010000123.1,Foreign,1,2163,Supported,"Whole 2,163 bp contig matches mouse mitochondria; independent non-self nt query agrees at 100%."
+GCA_949088425.1,CARWHL010000001.1,Adapter,78259,78279,Supported,Internal TruSeq extends through GAACTCCAGTCAC before an N gap; inspect the assembly join.
+GCA_949499605.1,CATASX010000003.1,Adapter,110537,110557,Supported,Forward TruSeq extends with GAACTCCAGTC and lies near the contig end.
+GCA_949510105.1,CATCGY010000002.1,Adapter,23552,23572,Supported,"Forward TruSeq plus GAACT extension, five bases from contig end."
+GCA_949744565.1,CATJXR010000007.1,Adapter,1283,1301,Unresolved,Isolated reverse Nextera motif 99 bp from the end; insufficient extra evidence to decide origin.
+GCA_964229415.1,CAXRDO010000023.1,Adapter,16,36,Supported,Extended reverse read-2 adapter near the contig start.

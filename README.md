@@ -3,87 +3,113 @@
 **Project 07 · Introduction to Bioinformatics · Astana IT University**  
 **Abylaikhan Torekhan & Kuanysh Bakizhan · BDA-2405**
 
-We screened **3,006 real GenBank Mollicutes assemblies** using a small, readable pipeline.
-**246 assemblies (8.18%) were flagged:** 243 contained known adapter motifs and three had strong
-foreign-DNA matches. NCBI BLAST supported E. coli in one case and mouse mitochondrial DNA in two.
+All analysis code is in **[CSI_Genome_Project07.ipynb](CSI_Genome_Project07.ipynb)**.
+Its eight tasks follow the handbook in order. No separate analysis scripts are required.
+
+The full run screens **3,006 real GenBank Mollicutes assemblies**.
+**246 assemblies (8.18%) are flagged:** 243 have known adapter motifs and three have strong foreign-DNA matches.
+NCBI BLAST supports E. coli in one case and mouse mitochondrial DNA in two.
 These are screening flags, not a measurement of all contamination in GenBank.
 
-## Read the work
+## Read the project
 
-- [Notebook](CSI_Genome_Project07.ipynb): question, methods, results and reproduction command.
-- [Notebook as HTML](notebook.html).
-- [12-page report](report/CSI_Genome_Report.pdf), including Appendix A on AI usage.
-- [Editable report in Word](report/CSI_Genome_Report.docx): source for the final PDF.
-  The earlier report builder generates a separate draft and does not replace the edited report.
-- [Ten curator candidates](results/curator_top10.csv), with coordinates and suggested checks.
-- [Case review](results/review_decisions.csv), including unresolved cases and intentional constructs.
+- [Notebook with the code and executed full-run outputs](CSI_Genome_Project07.ipynb).
+- [Notebook as HTML](notebook.html), for reading without Jupyter.
+- [Report PDF](report/CSI_Genome_Report.pdf) and [editable Word report](report/CSI_Genome_Report.docx).
+- [Ten curator candidates](results/curator_top10.csv) and [case review](results/review_decisions.csv).
 
-## Run from a clean machine
+## Open and run the notebook
 
-Use Python 3.12 and a C compiler for mappy (Linux build-essential / macOS Command Line Tools).
+Use **Python 3.12**. A C compiler is needed for mappy (macOS Command Line Tools or Linux build-essential).
+On macOS/Linux, run from the repository folder:
 
-1. Clone this repository and open its folder.
-2. `python3 -m venv .venv`
-3. Activate it: `source .venv/bin/activate` (Windows: `.venv\Scripts\activate`).
-4. `python -m pip install -r requirements.lock.txt`
-5. **Quick, offline reproduction:** `snakemake --cores 2`
-6. **Check the expected result:** `python scripts/check.py`
-7. **Full headline result from raw inputs:** `snakemake --cores 2 --config mode=full`
+```sh
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.lock.txt
+python -m ipykernel install --user --name csi-genome --display-name "CSI Genome (Python 3.12)"
+jupyter notebook CSI_Genome_Project07.ipynb
+```
 
-The bundled test has 13 real assemblies and short prefixes of seven real sequencing runs
-(about 16 MB). Expected result: **5/13 flagged**, two adapter assemblies and three foreign candidates.
-It uses the same code and cached BLAST answers as the full run; its flag rate is not an archive estimate.
-The BLAST cache is matched to the exact query hash. The complete full run was also executed through Snakemake.
+Select the **CSI Genome (Python 3.12)** kernel. The notebook has all functions and computation cells.
+Choose **Restart Kernel and Run All Cells** to run it from the beginning.
 
-The full run downloads about 1 GB of compressed genomes, references and small FASTQ prefixes.
-Cached analysis takes a few minutes on the tested laptop; downloads and the NCBI queue vary.
-Budget about **6 GB of free disk space**. The raw data and large intermediate FASTA are ignored by Git.
-`results/summary.json` and the runtime JSON files contain the measured results and timings.
+- **Full analysis:** leave the default mode as `full` in the first code cell. This regenerates `results/`.
+- **Quick demonstration:** change the first cell's mode to `test`. This regenerates `results_test/` and uses the same methods offline.
 
-Docker alternative:
+The full run downloads about 1 GB of compressed genomes and small FASTQ prefixes on the first run.
+Allow about 6 GB of working disk space. Cached analysis takes a few minutes; downloading and NCBI waiting times vary.
+Existing raw files and exact-query BLAST responses are reused. The notebook still recalculates the analysis.
+
+The test uses **13 real assemblies and small samples of seven real read runs** (about 16 MB).
+It should report **5/13 flagged**, with two adapter assemblies and three foreign candidates, and print **PASS** in Task 7.
+Its rate is not an archive estimate. Some review cases are unavailable in the small dataset and remain unresolved.
+
+## The eight tasks
+
+| Task | What the notebook does |
+|---|---|
+| 1 | Defines foreign DNA, vectors, adapters, index hopping and sample swaps |
+| 2 | Downloads the fixed genome/read inputs, provides optional metadata retrieval and checks identifier links |
+| 3 | Scans adapters and compares that initial signature by platform and release era |
+| 4 | Calculates short-read QC, trims reads and checks cross-sample assignments |
+| 5 | Analyses long reads and searches for native/foreign split alignments |
+| 6 | Aligns contigs, scores contamination versus HGT candidates and identifies selected sequences with BLAST |
+| 7 | Calculates all category/taxon/year rates, reconstructs review evidence and checks the detector |
+| 8 | Selects up to ten curator candidates with coordinates and evidence |
+
+Task 3 starts with adapter signatures because foreign alignment is introduced in Task 6.
+Task 7 then compares all categories. Test mode returns only the curator candidates actually present.
+
+## Run without clicking cells
+
+Snakemake executes the **same notebook** in order. It supplies the mode through `CSI_GENOME_MODE`.
+The notebook contains the computation; Snakefile only starts it and tracks outputs.
+
+```sh
+snakemake --cores 2
+```
+
+This runs the offline test. For the complete study:
+
+```sh
+snakemake --cores 2 --config mode=full
+```
+
+Use `--forceall` to rerun a completed workflow. Executed workflow copies are stored locally in `.notebook_runs/`.
+
+Docker alternative (definition supplied; image not validated):
 
 ```sh
 docker build -t csi-genome .
 docker run --rm -v "$PWD":/project csi-genome
 ```
 
-## Understand the code
+## Data and review decisions
 
-| File | Job |
-|---|---|
-| `scripts/fetch.py` | Download the fixed accession list and limited FASTQ prefixes |
-| `scripts/metadata.py` | Optional live metadata refresh, saved separately from the study snapshot |
-| `scripts/audit.py` | Scan adapters, map to a small foreign/vector panel, score candidates |
-| `scripts/reads.py` | Short-read QC, long-read splits and cross-sample read check |
-| `scripts/blast_nt.py` | Scripted NCBI search with exact-query caching and self-hit exclusion |
-| `scripts/summarize.py` | Assemble rates, archive links, figures and curator candidates |
-| `scripts/check.py` | Verify the mini-dataset and run the adapter-spike baseline |
-| `Snakefile` | Connect the steps in the correct order |
+`config/assemblies.csv` records all assembly versions, BioSamples, BioProjects, platforms and release years.
+`config/reads.csv` lists the seven read runs. NCBI and ENA metadata snapshots and reference manifests are also supplied.
+The fixed inputs were retrieved on 29 September 2026; the original study and BLAST checks were performed on 30 September.
+A notebook rerun measures its own runtime; it does not create a new BLAST response when the exact query is cached.
 
-All assembly accessions, dates, declared platforms, BioSamples and BioProjects are in
-`config/assemblies.csv`. Read-run IDs and URLs are in `config/reads.csv`. NCBI/ENA metadata snapshots
-are supplied in `config/`; original public archive downloads date to **2026-09-29**.
-This new analysis and BLAST verification were performed on **2026-09-30**.
-`scripts/metadata.py` demonstrates repeatable retrieval without silently replacing the fixed snapshot.
+Set `REFRESH_METADATA = True` in full mode to download current annotations separately into `data/metadata_refresh/`.
+The fixed study metadata are preserved. Large raw data and temporary files are ignored by Git.
 
-`nt` was requested from NCBI; the returned database is **core_nt**, as recorded in the raw responses.
-Some large eukaryotic chromosomes are excluded from core_nt, which limits host-DNA detection.
-Source links and biological limitations are in the report. No dataset was generated to stand in for real data.
+**Review verdicts require judgment.** `config/review_annotations.csv` holds the recorded case-by-case decisions and reasons.
+Task 7 selects a seeded sample again, extracts sequence context, joins only matching coordinates and computes error estimates.
+Unreviewed cases remain unresolved. To review a case yourself, inspect `review_evidence.csv` and edit the matching annotation.
+The notebook does not automatically perform an independent human validation.
 
-## Main limitations
+## Limits
 
-- The foreign panel has four references. Missing organisms and damaged/partial adapters can be missed.
-- A vector match can be natural bacterial sequence or an intentional construct; it is not included in the main count.
-- HGT, sample swaps and index hopping cannot be proved from the available evidence alone.
-- Reads are the first 10,000 pairs or 2,000 long reads per run, not random archive-wide samples.
-- Review estimates are conditional false-discovery fractions, with unresolved cases reported separately.
-  They are evidence judgments, not independent experimental truth.
+- Only exact adapter motifs and four foreign-reference sources are covered; altered adapters and other contaminants can be missed.
+- Foreign matches and unusual GC can be real HGT or intended constructs. Vector matches require separate review.
+- Short and long reads are small prefixes from selected runs, not random samples from the archive.
+- Cross-sample mapping does not uniquely identify index hopping without index reads and lane information.
+- `nt` was requested, but NCBI returned `core_nt`, as recorded in the saved responses.
+- Reviewed false labels estimate a conditional false-discovery fraction, not a conventional false-positive rate on all clean genomes.
 
-## Team responsibilities and commits
+## Team contribution
 
 Abylaikhan Torekhan and Kuanysh Bakizhan both worked on the code and checked the results.
-Both partners are responsible for the final report and for explaining the full analysis at the defence.
-
-Joint commits use GitHub's `Co-authored-by` trailer with the verified account address
-`258616596+karp3n3@users.noreply.github.com`. The repository preserves the actual commit dates;
-co-author metadata does not itself establish who completed a technical task.
+Both partners are responsible for the final report and explaining the full analysis at the defence.

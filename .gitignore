@@ -11,3 +11,5 @@ results/pooled.fasta
 .DS_Store
 .ipynb_checkpoints/
 data/metadata_refresh/
+
+.notebook_runs/

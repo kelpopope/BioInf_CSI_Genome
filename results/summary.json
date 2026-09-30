@@ -17,19 +17,19 @@
   "missing_platform": 173,
   "definition": "Flagged = exact known adapter motif OR high-scoring foreign panel match. This is not proven contamination prevalence.",
   "scan_runtime": {
-    "seconds": 119.95066383300582,
+    "seconds": 117.88637179200305,
     "assemblies": 3006,
     "bp": 3674465179,
     "contigs": 317568,
-    "peak_rss_os_units": 180109312
+    "peak_rss_os_units": 264716288
   },
   "align_runtime": {
-    "seconds": 80.05535637499997,
+    "seconds": 80.20030962498276,
     "candidates": 279354,
-    "peak_rss_os_units": 372129792
+    "peak_rss_os_units": 1245446144
   },
   "reads_runtime": {
-    "seconds": 27.072834791993955,
-    "peak_rss_os_units": 1255899136
+    "seconds": 34.37597829301376,
+    "peak_rss_os_units": 1245446144
   }
 }
