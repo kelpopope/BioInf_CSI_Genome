@@ -1,0 +1,4 @@
+query,accession,contig,start,end,length,subject,organism,title,identity,query_coverage,evalue,bitscore,database,query_sha256
+Q01,GCA_937885255.1,CALAAF010000019.1,4415,5414,16354,OW971656,Mus musculus,"Mus musculus genome assembly, organelle: mitochondrion",1.0,1.0,0,1847.77,core_nt,c69b52fd29409417022920befee7f331261bdc0acad749f8f375d042ba8004e5
+Q02,GCA_013389495.1,JACAOE010000004.1,943,1942,2885,OZ547145,Escherichia coli,"Escherichia coli isolate AHB25 genome assembly, chromosome: 1",0.999,1.0,0,1842.23,core_nt,c69b52fd29409417022920befee7f331261bdc0acad749f8f375d042ba8004e5
+Q03,GCA_949083825.1,CARVPV010000123.1,462,1461,2163,PV739045,Mus musculus,"Mus musculus isolate 13_SU1579 mitochondrion, complete genome",1.0,1.0,0,1847.77,core_nt,c69b52fd29409417022920befee7f331261bdc0acad749f8f375d042ba8004e5

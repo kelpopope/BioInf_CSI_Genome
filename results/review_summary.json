@@ -1,0 +1,47 @@
+{
+  "Adapter": {
+    "reviewed": 20,
+    "supported": 19,
+    "false": 0,
+    "unresolved": 1,
+    "false_discovery_among_resolved": 0.0,
+    "ci95": [
+      0,
+      0.16818436536845052
+    ],
+    "all_sample_bounds": [
+      0.0,
+      0.05
+    ]
+  },
+  "Foreign": {
+    "reviewed": 3,
+    "supported": 3,
+    "false": 0,
+    "unresolved": 0,
+    "false_discovery_among_resolved": 0.0,
+    "ci95": [
+      0,
+      0.5615060804490177
+    ],
+    "all_sample_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  "Vector": {
+    "reviewed": 10,
+    "supported": 0,
+    "false": 6,
+    "unresolved": 4,
+    "false_discovery_among_resolved": 1.0,
+    "ci95": [
+      0.6096569663469354,
+      0.9999999999999999
+    ],
+    "all_sample_bounds": [
+      0.6,
+      1.0
+    ]
+  }
+}

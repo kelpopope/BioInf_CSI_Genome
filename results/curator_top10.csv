@@ -1,0 +1,11 @@
+accession,category,contig,start,end,evidence,action
+GCA_937885255.1,Foreign,CALAAF010000019.1,1,16354,100.00% identity; 100.0% contig covered; NC_005089.1|Mus_musculus_mitochondrion|NC_005089.1,"Inspect BLAST, raw-read support and assembly context; remove only if confirmed."
+GCA_013389495.1,Foreign,JACAOE010000004.1,1,2885,99.24% identity; 100.0% contig covered; GCF_000005845.2|Escherichia_coli|NC_000913.3,"Inspect BLAST, raw-read support and assembly context; remove only if confirmed."
+GCA_949083825.1,Foreign,CARVPV010000123.1,1,2163,100.00% identity; 100.0% contig covered; NC_005089.1|Mus_musculus_mitochondrion|NC_005089.1,"Inspect BLAST, raw-read support and assembly context; remove only if confirmed."
+GCA_900556265.1,Adapter,USOI01000001.1,1,19,568 exact adapter matches; example: Nextera,Check listed coordinates; trim terminal adapter or inspect internal join.
+GCA_900553385.1,Adapter,USDR01000001.1,33626,33644,445 exact adapter matches; example: Nextera,Check listed coordinates; trim terminal adapter or inspect internal join.
+GCA_937983315.1,Adapter,CALKAH010000001.1,23,43,337 exact adapter matches; example: TruSeq_R2,Check listed coordinates; trim terminal adapter or inspect internal join.
+GCA_947064695.1,Adapter,CAMSWF010000001.1,26,46,224 exact adapter matches; example: TruSeq,Check listed coordinates; trim terminal adapter or inspect internal join.
+GCA_948820955.1,Adapter,CAQKIL010000001.1,384,404,203 exact adapter matches; example: TruSeq,Check listed coordinates; trim terminal adapter or inspect internal join.
+GCA_949019015.1,Adapter,CARLZX010000001.1,17038,17058,196 exact adapter matches; example: TruSeq_R2,Check listed coordinates; trim terminal adapter or inspect internal join.
+GCA_948996125.1,Adapter,CARIPT010000002.1,16896,16916,174 exact adapter matches; example: TruSeq_R2,Check listed coordinates; trim terminal adapter or inspect internal join.

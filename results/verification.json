@@ -1,0 +1,12 @@
+{
+  "full_workflow": "passed: all seven rules",
+  "real_test": "passed: all six rules",
+  "test_assemblies": 13,
+  "test_expected_flags": 5,
+  "curator_coordinates_verified": 10,
+  "notebook_errors": 0,
+  "report_pages": 10,
+  "nt_query_sha256": "c69b52fd29409417022920befee7f331261bdc0acad749f8f375d042ba8004e5",
+  "report_readability": "All ten rendered pages visually inspected",
+  "docker": "Definition supplied; image not built in this environment"
+}
